@@ -1,9 +1,15 @@
-var a = "global";
-{
-  fun showA() {
-    print a;	
+
+class Dog {
+  init(name) {
+	this.name = name;	
   }
-  showA();
-  var a = "block";
-  showA();
+
+  bark() {
+	print "My name is " + this.name;	
+  }
 }
+
+var ralph = Dog("ralph");
+var peter = Dog("peter");
+ralph.bark();
+peter.bark();
