@@ -17,4 +17,4 @@ class Dog < Animal {
 }
 
 var ralph = Dog("ralph");
-print ralph.bark();
+ralph.hello();
