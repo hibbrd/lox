@@ -1,0 +1,4 @@
+var a = "john";
+var msg = "xxx";
+msg = "hello " + a;
+print msg;

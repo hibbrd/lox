@@ -1,4 +1,4 @@
 #!/bin/bash
 
 gcc *.c -o lox
-./lox
+./lox test.lox
