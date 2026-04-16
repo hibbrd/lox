@@ -4,5 +4,10 @@ var msg = "xxx";
 	var a = "sam";
 	print a;
 }
+
+for (var i = 0; i < 5; i = i + 1) {
+  print (i * 10);
+}
+
 msg = "hello " + a;
 print msg;
