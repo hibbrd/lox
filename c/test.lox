@@ -1,4 +1,8 @@
 var a = "john";
 var msg = "xxx";
+{
+	var a = "sam";
+	print a;
+}
 msg = "hello " + a;
 print msg;
