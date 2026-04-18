@@ -11,3 +11,12 @@ for (var i = 0; i < 5; i = i + 1) {
 
 msg = "hello " + a;
 print msg;
+
+fun fib(n) {
+    if (n < 2) return n;
+	return fib(n - 2) + fib(n - 1);
+}
+
+var start = clock();
+print fib(10);
+print clock() - start;
